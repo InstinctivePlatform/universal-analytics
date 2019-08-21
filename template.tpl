@@ -192,9 +192,10 @@ const cmdQueue = createArgumentsQueue('instinctive', 'instinctive.cmd');
 log('Loading Instinctive with data =', data);
 
 if(apiKey) {
-  	cmdQueue('key', apiKey);  
+  cmdQueue('key', apiKey);  
 } else {
-  	log('Missing Instinctive API Key, please check your account or contact support@instinctive.io for help.');
+  log('Missing Instinctive API Key, please check your account or contact support@instinctive.io for help.');
+  data.gtmOnFailure();
 }
 
 const url = 'https://instinctiveplatform.com/js/platform.js';
@@ -204,4 +205,4 @@ injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 ___NOTES___
 
-Created on 8/20/2019, 5:17:21 PM
+Created on 8/20/2019, 5:25:04 PM
