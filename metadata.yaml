@@ -1,5 +1,5 @@
 homepage: "instinctive.io",
-documentation: "https://github.com/InstinctivePlatform/universal-analytics-tag-tpl/blob/master/docs",
+documentation: "https://github.com/InstinctivePlatform/universal-analytics-tag-tpl/blob/master/docs/docs.md",
 versions:
-  - sha: 123abc
-    changeNotes: Initial Version
+  - sha: bab479d099f61b6fdb210ad65df5f4ba944a63e9
+    changeNotes: Latest Version
