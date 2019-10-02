@@ -10,6 +10,7 @@ ___INFO___
 {
   "displayName": "Instinctive Universal Analytics",
   "description": "Automatic analytics and tracking tag for Instinctive",
+  "categories": ["ANALYTICS", "CONVERSION_TRACKING", "PERSONALIZATION"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
